@@ -4,11 +4,11 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 
 ## Table of Contents
 
-- [Overview]()
-- [Getting Started]()
-- [How to Submit a PR ?]()
-- [FAQs]()
-- [Support]()
+- [Overview](https://github.com/efeDaniels/lhd-readme-example#overview)
+- [Getting Started](https://github.com/efeDaniels/lhd-readme-example#getting-started)
+- [How to Submit a PR ?](https://github.com/efeDaniels/lhd-readme-example#how-to-submit-a-pr-)
+- [FAQs](https://github.com/efeDaniels/lhd-readme-example#faq)
+- [Support](https://github.com/efeDaniels/lhd-readme-example#faq)
 
 ## Overview
 
