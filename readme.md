@@ -8,7 +8,7 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 - [Getting Started](https://github.com/efeDaniels/lhd-readme-example#getting-started)
 - [How to Submit a PR ?](https://github.com/efeDaniels/lhd-readme-example#how-to-submit-a-pr-)
 - [FAQs](https://github.com/efeDaniels/lhd-readme-example#faq)
-- [Support](https://github.com/efeDaniels/lhd-readme-example#faq)
+- [Support](https://github.com/efeDaniels/lhd-readme-example#support)
 
 ## Overview
 
@@ -45,9 +45,10 @@ Submitting a PR is as simple as following these steps:
 And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
 ## FAQ
+
 #### Q: What if I encounter issues during the PR process?
 
-A: Don't worry! Our team is here to help. Feel free to reach out to us via our [Support](https://discord.com/invite/ApeSwap) channels, and we'll be happy to assist you.
+A: Don't worry! Our team is here to help. Feel free to reach out to us via our [Support](https://github.com/efeDaniels/lhd-readme-example#support) channels, and we'll be happy to assist you.
 
 #### Q: How long does it take for my PR to be reviewed and merged?
 
