@@ -4,13 +4,17 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 
 ## Table of Contents
 
-- [Overview](#getting-started)
-- [Getting Started](#submit-pr)
-- [How to Submit a PR ?](#support)
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [How to Submit a PR ?](#submit-pr)
 - [FAQs](#faq)
 - [Support](#support)
 
-## Getting Started{#getting-started}
+## Overview {#overview}
+
+At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
+
+## Getting Started {#getting-started}
 
 Before you dive into submitting a PR, ensure you have the following prerequisites in place:
 
