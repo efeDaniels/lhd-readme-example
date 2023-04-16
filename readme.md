@@ -10,7 +10,7 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 - [FAQs](#faq)
 - [Support](#support)
 
-## Getting Started {#getting-started}
+## Getting Started{#getting-started}
 
 Before you dive into submitting a PR, ensure you have the following prerequisites in place:
 
