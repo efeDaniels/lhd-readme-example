@@ -4,17 +4,17 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [How to Submit a PR ?](#submit-pr)
-- [FAQs](#faq)
-- [Support](#support)
+- [Overview]()
+- [Getting Started]()
+- [How to Submit a PR ?]()
+- [FAQs]()
+- [Support]()
 
-## Overview {#overview}
+## Overview
 
 At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
 
-## Getting Started {#getting-started}
+## Getting Started
 
 Before you dive into submitting a PR, ensure you have the following prerequisites in place:
 
@@ -26,7 +26,7 @@ Before you dive into submitting a PR, ensure you have the following prerequisite
 
 Now, you're ready to submit your PR!
 
-## How to Submit a PR ? {#submit-pr}
+## How to Submit a PR ?
 
 Submitting a PR is as simple as following these steps:
 
@@ -44,7 +44,7 @@ Submitting a PR is as simple as following these steps:
 
 And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
-## FAQ {#faq}
+## FAQ
 #### Q: What if I encounter issues during the PR process?
 
 A: Don't worry! Our team is here to help. Feel free to reach out to us via our [Support](https://discord.com/invite/ApeSwap) channels, and we'll be happy to assist you.
@@ -57,7 +57,7 @@ A: We aim to review and merge PRs as quickly as possible. Please allow our team 
 
 A: Congratulations! Your project is now integrated with our liquidity tracking product. You can start monitoring your liquidity and leveraging our tools to make informed decisions for your project.
 
-## Support {#support}
+## Support
 
 We're committed to providing you with the best support possible. If you have any questions, issues, or concerns, feel free to reach out to us through the following channels:
 
