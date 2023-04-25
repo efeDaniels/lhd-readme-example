@@ -44,6 +44,58 @@ Submitting a PR is as simple as following these steps:
 
 And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
+## Deployment Example
+
+In that example, we'll add our native token BANANA to the repo! We'll need to go `src > constants` folder and open `addresMappingWhitelist.ts`. And you'll notice skeleton of code block looks like that:
+
+```bash
+{
+    tokenSymbol: '',
+    tokenName: '',
+    tokenLogoUrl: '',
+    tokenAddresses: [
+      { address: '', chainId: '' },
+      { address: '', chainId: '' },
+    ],
+    knownOwners: [
+      '',
+      '',
+      '',
+    ],
+},
+```
+
+Once you finish filling, it should look like that:
+
+```bash
+ {
+    tokenSymbol: 'BANANA',
+    tokenName: 'ApeSwap BANANA',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
+    tokenAddresses: [
+      { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
+      { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
+    ],
+    knownOwners: [
+      '0x944694417a6ca0a70963d644a11d42c10e3af042',
+      '0xabd7853b79e488bc1bd9e238a870167b074eb714',
+      '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
+    ],
+  },
+```
+
+**Be Aware Of Those Importnat Details:** 
+
+`tokenSymbol` has to be always uppercase.
+
+All contract addresses should be lowercase at contract address needed variables such as  `tokenAddresses`, `knownOwners`.
+
+`knownOwners` should be a known liquidity holder wallet of the project. That can be a GnosisSafeProxy wallet or a locking contract etc.
+
+Please don't forget to use  `Prettier` before comitting your code.
+
+Once you finish the code, run `yarn configure` to convert your TypeScript entry into a consumable JSON file and create a new pull request in our main repository.
+
 ## FAQ
 
 #### Q: What if I encounter issues during the PR process?
