@@ -13,7 +13,7 @@ Welcome to the Liquidity Health Dashboard integration guide! We're excited to ha
 
 ## Overview
 
-At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
+At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it. AAAAAAAAAAAAAAA
 
 ## Getting Started
 
