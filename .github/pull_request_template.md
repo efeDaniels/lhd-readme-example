@@ -9,7 +9,6 @@
 #### Contact Information:
 - Telegram Handle of a Contact Person:
 - Project's Website:
-- A fresh created Telegram Group's Invite Link (optional):
 - Project's Twitter (optional):
 - Other (optional):
 
@@ -21,5 +20,3 @@
 - [ ] I have provided a brief project description
 - [ ] I have provided contact information
 - [ ] I have provided any additional information that may be helpful for potential partnerships
-
-**Note**: By submitting this PR, you agree to potentially be contacted by our biz-dev department regarding a potential partnership.
