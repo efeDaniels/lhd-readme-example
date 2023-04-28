@@ -43,7 +43,7 @@ Submitting a PR is as simple as following these steps:
 
 6. **Submit a PR:** Create a new pull request in our `main` repository, targeting the main branch.
 
-And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
+And voilà! Your PR is submitted, and our team will review and merge it as soon as possible. EEEEE
 
 ## Deployment Example
 
