@@ -25,7 +25,7 @@ Before you dive into submitting a PR, ensure you have the following prerequisite
 
 3.  Fork our repository to your own Github account.
 
-Now, you're ready to submit your PR!
+Now, you're ready to submit your PR! Hello world
 
 ## How to Submit a PR ?
 
