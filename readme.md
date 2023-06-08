@@ -1,3 +1,5 @@
+##TEST FURKAN##
+
 # Liquidity Health Dashboard Configuration Repo
 
 Welcome to the Liquidity Health Dashboard integration guide! We're excited to have you on board as we strive to provide smooth and seamless liquidity tracking for your project. We've designed this README to be informative, engaging, and easy to follow for everyone. Let's dive right in!
@@ -85,11 +87,11 @@ Once you finish filling, it should look like that:
   },
 ```
 
-**Be Aware Of Those Importnat Details:** 
+**Be Aware Of Those Importnat Details:**
 
 `tokenSymbol` has to be always uppercase.
 
-All contract addresses should be lowercase at contract address needed variables such as  `tokenAddresses`, `knownOwners`.
+All contract addresses should be lowercase at contract address needed variables such as `tokenAddresses`, `knownOwners`.
 
 `knownOwners` should be a known liquidity holder wallet of the project. That can be a GnosisSafeProxy wallet or a locking contract etc.
 
