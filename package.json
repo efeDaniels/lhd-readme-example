@@ -1,0 +1,16 @@
+{
+  "name": "lhd-readme-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/efeDaniels/lhd-readme-example.git",
+  "author": "Efe <dev.efedaniels@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn configure"
+    }
+  }
+}
