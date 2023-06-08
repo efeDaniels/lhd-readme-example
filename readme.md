@@ -1,19 +1,21 @@
 # Liquidity Health Dashboard Configuration Repo
 
-Welcome to the Liquidity Health Dashboard integration guide! We're excited to have you on board as we strive to provide smooth and seamless liquidity tracking for your project. We've designed this README to be informative, engaging, and easy to follow for everyone. Let's dive right in!
+Welcome to the Liquidity Health Dashboard Config Repo! This repository is dedicated to the manual addition and curation of EVM-compatible projects for accurate listing on ApeSwap's Liquidity Health Dashboard (link coming soon).
+
+We're excited to have you on board as we strive to provide smooth and seamless liquidity health tracking for your project. Let's dive right in!
 
 ## Table of Contents
 
-- [Overview](https://github.com/efeDaniels/lhd-readme-example#overview)
-- [Getting Started](https://github.com/efeDaniels/lhd-readme-example#getting-started)
-- [How to Submit a PR ?](https://github.com/efeDaniels/lhd-readme-example#how-to-submit-a-pr-)
-- [Deployment Example](https://github.com/efeDaniels/lhd-readme-example#deployment-example)
-- [FAQs](https://github.com/efeDaniels/lhd-readme-example#faq)
-- [Support](https://github.com/efeDaniels/lhd-readme-example#support)
+- [Overview](https://github.com/ApeSwapFinance/lhd-config#overview)
+- [Getting Started](https://github.com/ApeSwapFinance/lhd-config#getting-started)
+- [How to Sumbit a Change?](https://github.com/ApeSwapFinance/lhd-config#how-to-submit-a-change)
+- [Deployment Example](https://github.com/ApeSwapFinance/lhd-config#deployment-example)
+- [FAQs](https://github.com/ApeSwapFinance/lhd-config#faq)
+- [Support](https://github.com/ApeSwapFinance/lhd-config#support)
 
 ## Overview
 
-At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it. I LOVE APESWAP.
+At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
 
 ## Getting Started
 
@@ -27,7 +29,7 @@ Before you dive into submitting a PR, ensure you have the following prerequisite
 
 Now, you're ready to submit your PR!
 
-## How to Submit a PR ?
+## How to Submit a Change?
 
 Submitting a PR is as simple as following these steps:
 
@@ -35,7 +37,7 @@ Submitting a PR is as simple as following these steps:
 
 2. **Install packages:** Navigate to the project folder and run `yarn` to install all applicable packages.
 
-3. **Edit the `.ts` file:** Locate and edit the applicable `.ts` file inside the config folder. Make sure to provide all the necessary information about your project.
+3. **Edit the `.ts` file:** Locate and edit the applicable `.ts` file inside the `config` folder. Make sure to provide all the necessary information about your project.
 
 4. **Run configuration:** Run `yarn configure` to convert your TypeScript entry into a consumable JSON file.
 
@@ -43,13 +45,13 @@ Submitting a PR is as simple as following these steps:
 
 6. **Submit a PR:** Create a new pull request in our `main` repository, targeting the main branch.
 
-And voilà! Your PR is submitted, and our team will review and merge it as soon as possible. EEEEE
+And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
 ## Deployment Example
 
 In that example, we'll add our native token BANANA to the repo! We'll need to go `src > constants` folder and open `addresMappingWhitelist.ts`. And you'll notice skeleton of code block looks like that:
 
-```bash
+```typescript
 {
     tokenSymbol: '',
     tokenName: '',
@@ -68,7 +70,7 @@ In that example, we'll add our native token BANANA to the repo! We'll need to go
 
 Once you finish filling, it should look like that:
 
-```bash
+```typescript
  {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
@@ -85,17 +87,19 @@ Once you finish filling, it should look like that:
   },
 ```
 
-**Be Aware Of Those Importnat Details:** 
+**Be Aware Of Those Importnat Details:**
 
 `tokenSymbol` has to be always uppercase.
 
-All contract addresses should be lowercase at contract address needed variables such as  `tokenAddresses`, `knownOwners`.
+All contract addresses should be lowercase at contract address needed variables such as `tokenAddresses`, `knownOwners`.
 
-`knownOwners` should be a known liquidity holder wallet of the project. That can be a GnosisSafeProxy wallet or a locking contract etc.
+`knownOwners` should be a known liquidity holder wallet of the project. That can be a Safe multi-sig, locking contract, or other owned wallet. We will verify these!
 
-Please don't forget to use  `Prettier` before comitting your code.
+Please don't forget to use `Prettier` before comitting your code.
 
 Once you finish the code, run `yarn configure` to convert your TypeScript entry into a consumable JSON file and create a new pull request in our main repository.
+
+And finally, please make sure to add `project-requests` label to your PR for making tracking progrees easier for us.
 
 ## FAQ
 
