@@ -115,12 +115,14 @@ A: We aim to review and merge PRs as quickly as possible. Please allow our team 
 
 A: Congratulations! Your project is now integrated with our liquidity tracking product. You can start monitoring your liquidity and leveraging our tools to make informed decisions for your project.
 
+## Q:  Where do I find the ApeSwap tags to pick from? 
+ A: You can see a complete list of tags with their definitions in our docs here!
 ## Support
 
 We're committed to providing you with the best support possible. If you have any questions, issues, or concerns, feel free to reach out to us through the following channels:
 
 - [Discord](https://discord.com/invite/ApeSwap)
 
-- [Telegram](https://t.me/ape_swap)
+- [Telegram](https://t.me/liquiditymonkey)
 
 Thank you for choosing ApeSwap! We're looking forward to working with you and helping your project thrive.

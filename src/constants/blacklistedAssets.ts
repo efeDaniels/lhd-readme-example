@@ -207,12 +207,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '56', address: '0xe6df05ce8c8301223373cf5b969afcb1498c5528' }],
   },
   {
-    tokenSymbol: 'CUSDC',
-    tokenName: 'cUSDC',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/9442/large/Compound_USDC.png?1567581577',
-    tokenAddresses: [{ chainId: '1', address: '0x39aa39c021dfbae8fac545936693ac917d5e7563' }],
-  },
-  {
     tokenSymbol: 'IUSDC',
     tokenName: 'Instadapp USDC',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/25820/large/iUSDC_100x100.png?1654055475',
