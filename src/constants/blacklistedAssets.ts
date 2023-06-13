@@ -189,12 +189,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '56', address: '0x1bdd3cf7f79cfb8edbb955f20ad99211551ba275' }],
   },
   {
-    tokenSymbol: 'aBNBc',
-    tokenName: 'Ankr BNB Reward Bearing Certificate',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ABNBC.svg',
-    tokenAddresses: [{ address: '0xe85afccdafbe7f2b096f268e31cce3da8da2990a', chainId: '56' }],
-  },
-  {
     tokenSymbol: 'BNB',
     tokenName: 'anyBNB',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/WBNB.svg',
